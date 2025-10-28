@@ -1,0 +1,105 @@
+/*Color Palette
+#003366
+#174978
+#2F5F8A
+#46769B
+#5E8CAD
+#75A2BF
+#75A2BF*/
+
+body{
+    background-color: #75A2BF;
+}
+
+#header{
+    padding: 4px;
+    background-color: #4a3b88;
+    height: 45px;
+}
+
+#container{
+    background-color: #2F5F8A; 
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding-bottom: 10px;
+}
+
+nav {
+    text-decoration: none;
+    padding-top: 6px;
+    padding-left: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    border: solid;
+    border-width: 1px 1px 0 1px;
+    margin: 0 5px 0 0;
+    text-decoration: none;
+}
+
+nav li a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #291614;
+}
+
+#selected {
+    padding-bottom: 1px; 
+    background: #75A2BF;
+}
+
+#content {
+    border: 1px solid;
+    background: #75A2BF;
+    padding: 5px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.link{
+    color: black;
+    font-style: italic;
+}
+
+figcaption {
+    color: #003366;
+    text-align: center;
+}
+
+.jpg{
+    border: 2px solid #174978;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+hr{
+    height: 2px;
+    color: #003366;
+    background-color: #003366;
+    border-width: 0px;
+}
+
+.fa-linkedin, .fa-envelope, .fa-github {
+    background: #2F5F8A;
+    color: white;
+    padding: 2px;
+    margin: 2px;
+    text-decoration: none;
+}
+
+h1{
+    padding-right: 6px;
+}
